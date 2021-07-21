@@ -9,5 +9,6 @@ int main(){
     cout << rint(4.4)<<endl;
     cout << fmax(8,3)<<endl;
     cout << fmin(8,3)<<endl;
+    cout << fmod(8,3)<<endl;
     return 0;
 } 
