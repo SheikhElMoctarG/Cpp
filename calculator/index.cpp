@@ -7,5 +7,6 @@ int main(){
     cout << floor(4.9)<<endl;
     cout << ceil(4.9)<<endl;
     cout << rint(4.4)<<endl;
+    cout << fmax(8,3)<<endl;
     return 0;
 } 
