@@ -8,5 +8,6 @@ int main(){
     cout << ceil(4.9)<<endl;
     cout << rint(4.4)<<endl;
     cout << fmax(8,3)<<endl;
+    cout << fmin(8,3)<<endl;
     return 0;
 } 
