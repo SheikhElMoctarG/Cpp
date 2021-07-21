@@ -10,5 +10,6 @@ int main(){
     cout << fmax(8,3)<<endl;
     cout << fmin(8,3)<<endl;
     cout << fmod(8,3)<<endl;
+    cout << pow(8,2)<<endl;
     return 0;
 } 
