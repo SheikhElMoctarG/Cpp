@@ -6,5 +6,6 @@ int main(){
     cout << fabs(-16.077f)<<endl;
     cout << floor(4.9)<<endl;
     cout << ceil(4.9)<<endl;
+    cout << rint(4.4)<<endl;
     return 0;
 } 
