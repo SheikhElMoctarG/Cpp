@@ -14,5 +14,6 @@ int main(){
     cout << sqrt(25)<<endl;
     cout << cbrt(8)<<endl;
     cout << fdim(15,13)<<endl;
+    cout << fma(5,4,2)<<endl;
     return 0;
 } 
