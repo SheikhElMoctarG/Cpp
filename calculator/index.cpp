@@ -12,5 +12,6 @@ int main(){
     cout << fmod(8,3)<<endl;
     cout << pow(8,2)<<endl;
     cout << sqrt(25)<<endl;
+    cout << cbrt(8)<<endl;
     return 0;
 } 
