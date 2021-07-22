@@ -1,5 +1,7 @@
 #include<cmath>
 #include<iostream>
+#include<stdlib.h>
+#include<time.h>
 using namespace std;
 int main(){
     cout << abs(-14.0)<<endl;
@@ -16,5 +18,7 @@ int main(){
     cout << fdim(15,13)<<endl;
     cout << fma(5,4,2)<<endl;
     cout << hypot(5,4)<<endl;
+    srand(time(0));
+    cout <<"Number is: "<< rand() ;
     return 0;
 } 
