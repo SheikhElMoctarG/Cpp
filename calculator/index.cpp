@@ -15,5 +15,6 @@ int main(){
     cout << cbrt(8)<<endl;
     cout << fdim(15,13)<<endl;
     cout << fma(5,4,2)<<endl;
+    cout << hypot(5,4)<<endl;
     return 0;
 } 
