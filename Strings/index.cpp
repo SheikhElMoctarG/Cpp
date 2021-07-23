@@ -30,5 +30,9 @@ int main(){
     cout << fullname.rfind("El",6) <<endl;
     string name = fullname.replace(0,6,"Ahmed");
     cout << name << endl;
+    first.swap(last);
+    cout << first +" "+ last << endl;
+    
+    
     return 0;
 }
