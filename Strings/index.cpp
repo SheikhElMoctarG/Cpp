@@ -9,6 +9,6 @@ int main(){
     string last = "El-moctar";
     string fullname = first + " "+last;
     cout << fullname<<endl;
-    cout << fullname.length()  <<endl;
+    cout << fullname.substr(3,11) <<endl;
     return 0;
 }
