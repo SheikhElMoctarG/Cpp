@@ -32,7 +32,10 @@ int main(){
     cout << name << endl;
     first.swap(last);
     cout << first +" "+ last << endl;
-    
+    string os = "mac";
+    string fullos = os.append("OS");
+    cout << fullos << endl;
+
     
     return 0;
 }
