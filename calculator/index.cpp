@@ -20,5 +20,11 @@ int main(){
     cout << hypot(5,4)<<endl;
     srand(time(0));
     cout <<"Number is: "<< rand() ;
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    srand(time(0));
+    int a = rand() % 10 + 1;
+    cout << "===> "<<a;
     return 0;
 } 
