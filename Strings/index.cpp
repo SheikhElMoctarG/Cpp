@@ -35,6 +35,8 @@ int main(){
     string os = "mac";
     string fullos = os.append("OS");
     cout << fullos << endl;
+    bool nam = name.empty();
+    cout << nam << endl;
 
     
     return 0;
