@@ -26,7 +26,9 @@ int main(){
 
     // methods
     cout << fullname.size() <<endl;
-    cout << fullname.rfind("El") <<endl;
+    cout << fullname.rfind("h") <<endl;
     cout << fullname.rfind("El",6) <<endl;
+    string name = fullname.replace(0,6,"Ahmed");
+    cout << name << endl;
     return 0;
 }
