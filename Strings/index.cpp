@@ -18,5 +18,13 @@ int main(){
     }else{
         cout << "we don't find this word..🚫";
     }
+
+
+
+    cout << endl;
+    cout << endl;
+
+    // methods
+    cout << fullname.size() <<endl;
     return 0;
 }
