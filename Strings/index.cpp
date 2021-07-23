@@ -26,5 +26,7 @@ int main(){
 
     // methods
     cout << fullname.size() <<endl;
+    cout << fullname.rfind("El") <<endl;
+    cout << fullname.rfind("El",6) <<endl;
     return 0;
 }
