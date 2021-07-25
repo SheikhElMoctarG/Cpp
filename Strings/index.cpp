@@ -39,7 +39,10 @@ int main(){
     cout << nam << endl;
     name.clear();
     cout << name << endl;
-
+    name = "Sheikh El";
+    string name2 = "Sheikh Ell";
+    cout << name.compare(name2) << endl;
+    
     
     return 0;
 }
