@@ -40,8 +40,9 @@ int main(){
     name.clear();
     cout << name << endl;
     name = "Sheikh El";
-    string name2 = "Sheikh Ell";
+    string name2 = "Sheikh El";
     cout << name.compare(name2) << endl;
+    cout << name.insert(9,"-Moctar") << endl;
     
     
     return 0;
