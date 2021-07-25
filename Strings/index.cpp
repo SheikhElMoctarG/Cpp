@@ -37,6 +37,8 @@ int main(){
     cout << fullos << endl;
     bool nam = name.empty();
     cout << nam << endl;
+    name.clear();
+    cout << name << endl;
 
     
     return 0;
