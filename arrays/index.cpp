@@ -10,4 +10,6 @@ int main(){
 
     int arr2[5] = {0};
     cout << arr2[2] << endl;
+
+    cout << sizeof(arr2) / sizeof(arr2[0]);
 }
