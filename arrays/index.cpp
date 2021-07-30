@@ -24,4 +24,5 @@ int main(){
     for (string name : myGirlFriens){
        cout << name << endl;
     }
+    
 }
