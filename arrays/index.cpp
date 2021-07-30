@@ -17,4 +17,11 @@ int main(){
     for(int i=0; i<arr3; i++){
         cout << arr[i] << endl;
     }
+    cout << endl<< endl<< endl<< endl<< endl<< endl;
+
+    string myGirlFriens[] = {"Hedia","Bushra","Em Elkayree", "Tanja","Mariam❤"};
+    cout << "All girlfriens in my life are ";
+    for (string name : myGirlFriens){
+       cout << name << endl;
+    }
 }
