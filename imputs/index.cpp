@@ -12,7 +12,16 @@ int main(){
     cin >>country;
     cout << "Your Information:"<<endl;
     cout << "I am "<<name<< ", I am "<< age<<" years old, "<<"I am from "<<country;
+    cout << endl<< endl<< endl;
+    // getline
+    string s ;
+    cout << "hi, your name? ";
+    getline(cin,s);
+    cout << s;
+
+
+
+
 
     return 0;
-
 }
