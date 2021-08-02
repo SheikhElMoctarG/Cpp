@@ -15,5 +15,12 @@ int main(){
     ptr = &y;
     cout << "*ptr = " << *ptr << endl;
 
+
+    int i = 1;
+    int* ptr2 = &i;
+    *ptr2 = 5;
+    cout << "x = " << i << endl;
+    cout << "*ptr = " << *ptr2;
+
     return 0;
 }
