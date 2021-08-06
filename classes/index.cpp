@@ -3,7 +3,7 @@ using namespace std;
 
 class Employee{
     public:
-      Employee(){
+      Employee(int id, string name, int age, int salary){
           cout <<"ID: "<<id<<endl;
           cout <<"Name: "<<name<<endl;
           cout <<"Age: "<<age<<endl;
