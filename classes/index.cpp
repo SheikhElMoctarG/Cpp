@@ -7,7 +7,7 @@ class Employee{
       int id;
       int age;
       int salary;
-      void print(){
+      Employee(){
           cout <<"ID: "<<id<<endl;
           cout <<"Name: "<<name<<endl;
           cout <<"Age: "<<age<<endl;
