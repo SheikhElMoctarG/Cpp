@@ -17,16 +17,19 @@ class Employee{
 };
 
 int main(){
-    int i;
+    int i=0;
     Employee Sheikh;
-    i++
-    Employee Jidou;
-    i++
+    i++;
+    
     Sheikh.name = "Sheikh El-Moctar";
+    Sheikh.id = i;
     Sheikh.age = 17;
     Sheikh.salary = 3000;
     Sheikh.print();
+    Employee Jidou;
+    i++;
     Jidou.name = "Jidou Muhammed lemine";
+    Jidou.id = i;
     Jidou.age = 18;
     Jidou.salary = 1500;
     Jidou.print();
