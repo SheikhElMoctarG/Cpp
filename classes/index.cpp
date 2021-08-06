@@ -19,7 +19,7 @@ int main(){
     Sheikh.name = "Sheikh El-Moctar";
     Sheikh.age = 17;
     Sheikh.salary = 3000;
-
+    Sheikh.print();
     Jidou.name = "Jidou Muhammed lemine";
     Jidou.age = 18;
     Jidou.salary = 1500;
