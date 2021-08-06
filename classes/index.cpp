@@ -3,10 +3,6 @@ using namespace std;
 
 class Employee{
     public:
-      string name;
-      int id;
-      int age;
-      int salary;
       Employee(){
           cout <<"ID: "<<id<<endl;
           cout <<"Name: "<<name<<endl;
