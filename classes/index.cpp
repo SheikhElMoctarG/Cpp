@@ -17,8 +17,11 @@ class Employee{
 };
 
 int main(){
+    int i;
     Employee Sheikh;
+    i++
     Employee Jidou;
+    i++
     Sheikh.name = "Sheikh El-Moctar";
     Sheikh.age = 17;
     Sheikh.salary = 3000;
