@@ -4,13 +4,15 @@ using namespace std;
 class Employee{
     public:
       string name;
+      int id;
       int age;
       int salary;
       void print(){
+          cout <<"ID: "<<id<<endl;
           cout <<"Name: "<<name<<endl;
           cout <<"Age: "<<age<<endl;
           cout <<"Salary: "<<salary<<endl;
-          cout <<"-------------------------"<<endl<<endl;
+          cout <<"-------------------------"<<endl;
       }
 };
 
