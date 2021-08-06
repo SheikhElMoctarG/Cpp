@@ -6,6 +6,11 @@ class Employee{
       string name;
       int age;
       int salary;
+      void print(){
+          cout <<"Name: "<<name<<endl;
+          cout <<"Age: "<<age<<endl;
+          cout <<"Salary: "<<salary<<endl;
+      }
 };
 
 int main(){
