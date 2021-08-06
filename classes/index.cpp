@@ -10,6 +10,7 @@ class Employee{
           cout <<"Name: "<<name<<endl;
           cout <<"Age: "<<age<<endl;
           cout <<"Salary: "<<salary<<endl;
+          cout <<"-------------------------"<<endl<<endl;
       }
 };
 
