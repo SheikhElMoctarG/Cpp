@@ -23,8 +23,9 @@ int main(){
     Jidou.name = "Jidou Muhammed lemine";
     Jidou.age = 18;
     Jidou.salary = 1500;
-
+/*
     cout << Sheikh.name <<endl;
     cout << Jidou.name<<endl;
+*/
 }
 
