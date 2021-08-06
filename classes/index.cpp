@@ -14,14 +14,8 @@ class Employee{
 
 int main(){
     int i=0;
-    Employee Sheikh;
     i++;
-    
-    Sheikh.name = "Sheikh El-Moctar";
-    Sheikh.id = i;
-    Sheikh.age = 17;
-    Sheikh.salary = 3000;
-    Sheikh.print();
+    Employee Sheikh(i,"Sheikh El-Moctar", 17, 3000);
     Employee Jidou;
     i++;
     Jidou.name = "Jidou Muhammed lemine";
