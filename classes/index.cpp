@@ -16,13 +16,8 @@ int main(){
     int i=0;
     i++;
     Employee Sheikh(i,"Sheikh El-Moctar", 17, 3000);
-    Employee Jidou;
     i++;
-    Jidou.name = "Jidou Muhammed lemine";
-    Jidou.id = i;
-    Jidou.age = 18;
-    Jidou.salary = 1500;
-    Jidou.print();
+    Employee Jidou(i,"Jidou Muhammed lemine",18,1500);
 /*
     cout << Sheikh.name <<endl;
     cout << Jidou.name<<endl;
